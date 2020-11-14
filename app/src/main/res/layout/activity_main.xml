@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/TextView"
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CALCULADORA"
@@ -17,22 +17,43 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtNumeroUno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:visibility="visible" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/txtNumeroDos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number" />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/lblResultado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calcular" />
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calcular"
+            android:text="Sumar" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="limpiar"
+            android:text="Limpiar" />
+    </LinearLayout>
 </LinearLayout>

@@ -5,4 +5,6 @@
     <string name="numero_uno">Number One</string>
     <string name="numero_dos">Number Two</string>
     <string name="calcular">Calculate</string>
+    <string name="mensaje_eror_numero_uno">Entry number one</string>
+    <string name="mensaje_eror_numero_dos">Entry number two</string>
 </resources>
