@@ -11,7 +11,7 @@
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CALCULADORA"
+        android:text="DanyT Calculadora"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -34,6 +34,13 @@
     <TextView
         android:id="@+id/lblResultado"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#E91E63" />
+
+    <Spinner
+        android:id="@+id/cmbOperaciones"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <LinearLayout
@@ -46,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="calcular"
-            android:text="Sumar" />
+            android:text="@string/calcular" />
 
         <Button
             android:id="@+id/btnLimpiar"
@@ -54,6 +61,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="limpiar"
-            android:text="Limpiar" />
+            android:text="@string/limpiar" />
     </LinearLayout>
 </LinearLayout>

@@ -7,4 +7,10 @@
     <string name="calcular">Calculate</string>
     <string name="mensaje_eror_numero_uno">Entry number one</string>
     <string name="mensaje_eror_numero_dos">Entry number two</string>
+    <string name="limpiar">Clear</string>
+    <string name="sumar">Add</string>
+    <string name="restar">Subtract</string>
+    <string name="multiplicar">Multiply</string>
+    <string name="dividir">Divide</string>
+    <string name="mensaje_error_div_cero">Can\'t divide by zero</string>
 </resources>
